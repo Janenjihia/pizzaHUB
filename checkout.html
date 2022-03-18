@@ -23,16 +23,16 @@
     <h3>ORDER HERE</h3>
         <div class="orders" id="order">
   <h1 class="text-center" id="order-pizza">Order Pizza</h1>
-  <div class="form-group row">
-    <div class="container">
-      <div id="form">
+  <!-- <div class="form-group row"> -->
+    <div class="container-fluid d-flex flex-wrap align content-center justify-content-around" background-size="cover">
+      <div id="form" >
           <form>
               <div class="row">
                 <div class="col-md-3">
 
                   <label for="size" style="color:orange">flavour</label>
                   <select class="browser-default custom-select" id="flavour">
-                      <<option value="vegtikka">Veg Tikka</option>
+                      <option value="vegtikka">Veg Tikka</option>
                       <option value="chickentikka">Chicken Tikka</option>
                       <option value="periperi">Peri-Peri Chicken</option>
                       <option value="bbq">meat deluxe</option>
@@ -76,21 +76,21 @@
                       <input class="form-control" type="text" name="pizza" id="quantity" placeholder="0" max=""
                           min="0">
                   </div><br><br><br><br><br><br>
-                  <button class="btn btn-success mx-auto d-block submit" type="submit" id="submit2"
-                      onclick="getTotalAmount();"><strong>Checkout</strong></button>
+                  <button class="btn btn-success mx-auto d-block submit" type="submit" id="submit2" onclick="getTotalAmount();"
+                      ><strong>Checkout</strong></button> -->
               </div>
           </form>
           <!-- <a href="#submit2">
               <button type="submit" class="btn btn-success checkout" id="checkout">
                   order summary
               </button>
-          </a> -->
+          </a> 
         </div>
         <div class="col-sm-2"></div>
     </div>
   </div> 
   
-  <!-- <div class="order-summary" id="sum-order">
+  <div class="order-summary" id="sum-order">
     <h1 class="text-center" id="summary">Order Summary</h1>
     <h2 class="text-center summary">you ordered</h2>
     <ol id="list" class="text-center sum">

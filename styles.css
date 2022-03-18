@@ -28,6 +28,14 @@
   font-feature-settings: "c2sc";
   font: optional; color: gold; size: 23v;
 }
+.form{
+  background-attachment: fixed;
+  background-position: center;
+  background-image: url("/images/background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+}
 #order{
   background-attachment: fixed;
   background-position: center;
@@ -100,7 +108,7 @@ h3{
 }
 
 #form{
-  margin-left: 20%;
+  margin-left: 0%;
   background-color: rgb(37, 36, 36); 
   background-size: cover; 
 }

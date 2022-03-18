@@ -1,3 +1,6 @@
+// $(function () {
+//   $('.summary').hide();
+//   $('.cdata-overlay').hide();
 // function getFlavourValue() {
 //   var selectedValue = document.getElementById("flavour").value;
 //   return (selectedValue);
@@ -27,6 +30,7 @@ function getTotalAmount() {
   alert("You order will be delivered shortly")
   alert("Continue shoppping with us each and every time .")
 }
+
 
 // $("#checkout").click(function () {
 //   let flavour = $(".flavour option:selected").val();
