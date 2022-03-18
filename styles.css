@@ -28,3 +28,12 @@
   font-feature-settings: "c2sc";
   font: optional; color: gold; size: 23v;
 }
+#order{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+  background-image: url("/images/background.jpeg");
+
+}
