@@ -1,7 +1,7 @@
 # pizzaHUB
 #### A pizza web page design aimed at practicing bootstrap,J Query, JavaScript,constructors, HTML, CSS.
-#### By 
-## Jane Wambui Njihia
+#### Author's name
+Jane Wambui Njihia
 ## Description
 A pizza web page design aimed at practicing bootstrap,J Query, JavaScript,constructors, HTML, CSS.
 ## Setup/Installation Requirements
