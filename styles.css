@@ -44,3 +44,28 @@
   font-family: 'Times New Roman', Times, serif;
   font-size:70px; 
 }
+#btn{
+  justify-content: center;
+  display: flex;
+  margin-left: 40%;
+  margin-top: 15%;
+  padding: 20px 40px;
+  font-size: 30px;
+
+}
+#btn:hover{
+  background-color: orange;
+  color:white;
+}
+#btn2{
+  margin-left: 5%;
+  margin-top: 1%;
+  padding: 20px 40px;
+  font-size: 20px;
+
+}
+#btn2:hover{
+  background-color: orange;
+  color:white;
+
+}
