@@ -69,3 +69,38 @@
   color:white;
 
 }
+#order h1{
+  text-align: center;
+  color: white;
+  margin-top: 8%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size:70px; 
+}
+#piz {
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  margin-left: 5%;
+}
+#piz h2{
+  text-align: center;
+}
+h3{
+  text-align: center;
+  font-weight: bolder;
+  
+  
+}
+
+#header{
+  font-weight: bolder;
+  text-align: center;
+  background-image: url(./images/background.jpeg);
+  background-size: cover;
+}
+
+#form{
+  margin-left: 20%;
+  /* background-color: rgb(37, 36, 36); */
+  /* background-size: cover; */
+}
