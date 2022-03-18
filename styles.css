@@ -37,3 +37,10 @@
   background-image: url("/images/background.jpeg");
 
 }
+#order h1{
+  text-align: center;
+  color: white;
+  margin-top: 8%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size:70px; 
+}
