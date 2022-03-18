@@ -24,43 +24,63 @@
         <div class="orders" id="order">
   <h1 class="text-center" id="order-pizza">Order Pizza</h1>
   <div class="form-group row">
-    <div class="col-sm-2"></div>
-    <div class="col-sm-8 order-overlay text-center">
-        <form class="col-sm-6 offset-sm-3 text-center">
-            <label>Pick your pizza Flavour:</label>
-            <select class="custom-select custom-select-md mb-3 flavour" required>
-                <option value="vegtikka">Veg Tikka</option>
-                <option value="chickentikka">Chicken Tikka</option>
-                <option value="periperi">Peri-Peri Chicken</option>
-                <option value="bbq">meat deluxe</option>
-                <option value="hawaiian">Hawaiian</option>
-                <option value="mushroom">Chicken and Mushroom</option>
-              </select>
-              <label>Chose your preferred Size:</label>
-              <select class="custom-select custom-select-md mb-3" id="size" required>
-                  <option value="regular">Regular</option>
-                  <option value="medium">Medium</option>
-                  <option value="large">Large</option>
-              </select>
-              <label for="crust">Choose your favorite Crust:</label>
-              <select class="custom-select custom-select-md mb-3" id="crust" required>
-                  <option value="thin">Thin Crust @ Ksh. 100</option>
-                  <option value="thick">Thick Crust @ Ksh. 150</option>
-                  <option value="flatbread">FlatBread Crust @ sh. 180</option>
-                  <option value="custom">Custom Crust @ sh. 280</option>
-              </select>
-              <label>Select Your favourite Toppings</label>
-              <select class="custom-select custom-select-md mb-3" id="toppings" required>
-                  <option value="tomato">Tomato =ks100</option>
-                  <option value="onions">Onions =ksh100</option>
-                  <option value="mushroom">Mushroom =ksh150</option>
-                  <option value="greenpepper">cheese=ksh180</option>
-                  <option value=""></option>
-                </select>
-                <label for="number">Number of Pizza's</label>
-                <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1" required>
-            </form>
-          <a href="#summary">
+    <div class="container">
+      <div id="form">
+          <form>
+              <div class="row">
+                <div class="col-md-3">
+
+                  <label for="size" style="color:orange">flavour</label>
+                  <select class="browser-default custom-select" id="flavour">
+                      <<option value="vegtikka">Veg Tikka</option>
+                      <option value="chickentikka">Chicken Tikka</option>
+                      <option value="periperi">Peri-Peri Chicken</option>
+                      <option value="bbq">meat deluxe</option>
+                      <option value="hawaiian">Hawaiian</option>
+                      <option value="mushroom">Chicken and Mushroom</option>
+                  </select><br>
+              </div>
+                  <div class="col-md-3">
+
+                      <label for="size" style="color:orange">Size</label>
+                      <select class="browser-default custom-select" id="size">
+                          <option value="">Choose option</option>
+                          <option value="1500">Large =ksh 1500</option>
+                          <option value="1000">Medium =ksh 1000</option>
+                          <option value="500">Small= ksh500</option>
+                      </select><br>
+                  </div>
+                  <div class="col-md-3">
+
+                      <label for="crust" style="color:orange">Crust</label>
+                      <select class="browser-default custom-select" id="crust">
+                          <option value="">Choose option</option>
+                          <option value="150">Crispy =ksh 150</option>
+                          <option value="100">Stuffed=ksh 100</option>
+                          <option value="70">Gluten-free =ksh 70</option>
+                      </select><br>
+                  </div>
+                  <div class="col-md-3">
+
+                      <label for="toppings" name="toppings" style="color:orange">Toppings</label>
+                      <select class="browser-default custom-select" id="toppings">
+                          <option value="">Choose option</option>
+                          <option value="60">Cheese =ksh60</option>
+                          <option value="60">pepperoni =ksh60
+                          <option value="60">onions =ksh60</option>
+                      </select>
+                  </div>
+                  <div class="col-md-3">
+
+                      <label for="quantity" style="color: orange">Quantity</label>
+                      <input class="form-control" type="text" name="pizza" id="quan" placeholder="0" max=""
+                          min="0">
+                  </div><br><br><br><br><br><br>
+                  <button class="btn btn-success mx-auto d-block submit" type="submit" id="submit2"
+                      onclick="getTotalAmount();"><strong>Checkout</strong></button>
+              </div>
+          </form>
+          <!-- <a href="#summary">
               <button type="submit" class="btn btn-success checkout" id="checkout">
                   Checkout
               </button>
@@ -68,9 +88,9 @@
         </div>
         <div class="col-sm-2"></div>
     </div>
-  </div>
+  </div> -->
   
-  <div class="order-summary" id="sum-order">
+  <!-- <div class="order-summary" id="sum-order">
     <h1 class="text-center" id="summary">Order Summary</h1>
     <h2 class="text-center summary">you ordered</h2>
     <ol id="list" class="text-center sum">
@@ -90,7 +110,7 @@
     <div class="d-block mx-auto text-center">
         <button class='deliver'>Make Delivery</button>
     </div>
-  </div>
+  </div> -->
       </div>
   <script src="./script.js"></script>
 </body>

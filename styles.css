@@ -95,14 +95,14 @@ h3{
 #header{
   font-weight: bolder;
   text-align: center;
-  background-image: url(./images/background.jpeg);
+  /* background-image: url(./images/background.jpeg); */
   background-size: cover;
 }
 
 #form{
   margin-left: 20%;
-  /* background-color: rgb(37, 36, 36); */
-  /* background-size: cover; */
+  background-color: rgb(37, 36, 36); 
+  background-size: cover; 
 }
 #form label{
   font-size: 40px;
