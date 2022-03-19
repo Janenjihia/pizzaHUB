@@ -31,7 +31,7 @@
 .form{
   background-attachment: fixed;
   background-position: center;
-  background-image: url("/images/background.jpeg");
+  /* background-image: url("/images/background.jpeg"); */
   background-repeat: no-repeat;
   background-size: cover;
   height: 60vh;
@@ -39,7 +39,7 @@
 #order{
   background-attachment: fixed;
   background-position: center;
-  background-image: url("/images/background.jpeg");
+  background-image: url("./images/background.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 60vh;
